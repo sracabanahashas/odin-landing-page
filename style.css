@@ -1,0 +1,45 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+.content {
+    display: flex;
+}
+
+.content img {
+    max-width: 300px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight; 900;
+    color: #F9FAF8;
+}
+
+.hero p,
+.hero li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header {
+    display: flex;
+
+}
