@@ -2,6 +2,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .hero {
@@ -76,12 +77,13 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-
+    padding: 30px;
 }
 
 .quotebox {
     display: flex;
     flex-direction: column;
+    flex: 0 1 700px;
 }
 
 .quotebox p {
@@ -90,4 +92,36 @@ body {
 
 .quotebox h2 {
     align-self: flex-end;
+}
+
+.CTA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.CTAbox {
+    flex: 0 1 900px;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+}
+
+.CTAbox button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
 }
